@@ -1,0 +1,17 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+        
+        int month = 3;
+        String monthString;
+
+        switch(month) {
+            case 1: monthString = "Jan"; break;
+            case 2: monthString = "Fen"; break;
+            case 3: monthString = "March"; break;
+            case 4: monthString = "Apr"; break;
+            default: monthString = "May"; break;
+            
+        }
+        System.out.println(monthString);
+    }
+}
