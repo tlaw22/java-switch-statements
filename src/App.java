@@ -7,7 +7,9 @@ public class App {
         switch(month) {
             case 1: monthString = "Jan"; break;
             case 2: monthString = "Fen"; break;
-            case 3: monthString = "March"; break;
+            case 3: monthString = "March"; 
+            System.out.println("Processing...");
+            break;
             case 4: monthString = "Apr"; break;
             default: monthString = "May"; break;
             
